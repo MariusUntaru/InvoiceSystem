@@ -34,7 +34,6 @@ jobs:
       # Start MySQL server if it is true.
         auto-start: true # optional, default is true
     # my.cnf settings for mysqld
-        my-cnf: my.cnf 
     # password for the root user
         root-password: password 
     # name of a new user

@@ -28,7 +28,7 @@ jobs:
       uses: shogo82148/actions-setup-mysql@v1.3.1
       with:
       # The version of MySQL and MariaDB
-        mysql-version: 3306 # optional, default is 3306
+        mysql-version: 8.0.26 # optional, default is 
       # The distribution. valid values are mysql or mariadb.
         distribution: mysql # optional, default is mysql
       # Start MySQL server if it is true.
